@@ -559,6 +559,7 @@
                               <Style>
                                 <FontFamily>Segoe UI</FontFamily>
                                 <FontSize>9pt</FontSize>
+                                <FontWeight>=IIf(Fields!GRADE.Value = "K", "Bold", "Default")</FontWeight>
                               </Style>
                             </TextRun>
                           </TextRuns>
@@ -592,6 +593,7 @@
                               <Style>
                                 <FontFamily>Segoe UI</FontFamily>
                                 <FontSize>9pt</FontSize>
+                                <FontWeight>=IIf(Fields!GRADE.Value = "K", "Bold", "Default")</FontWeight>
                               </Style>
                             </TextRun>
                           </TextRuns>
@@ -625,6 +627,7 @@
                               <Style>
                                 <FontFamily>Segoe UI</FontFamily>
                                 <FontSize>9pt</FontSize>
+                                <FontWeight>=IIf(Fields!GRADE.Value = "K", "Bold", "Default")</FontWeight>
                               </Style>
                             </TextRun>
                           </TextRuns>
@@ -658,6 +661,7 @@
                               <Style>
                                 <FontFamily>Segoe UI</FontFamily>
                                 <FontSize>9pt</FontSize>
+                                <FontWeight>=IIf(Fields!GRADE.Value = "K", "Bold", "Default")</FontWeight>
                               </Style>
                             </TextRun>
                           </TextRuns>
@@ -691,6 +695,7 @@
                               <Style>
                                 <FontFamily>Segoe UI</FontFamily>
                                 <FontSize>9pt</FontSize>
+                                <FontWeight>=IIf(Fields!GRADE.Value = "K", "Bold", "Default")</FontWeight>
                               </Style>
                             </TextRun>
                           </TextRuns>
@@ -724,6 +729,7 @@
                               <Style>
                                 <FontFamily>Segoe UI</FontFamily>
                                 <FontSize>9pt</FontSize>
+                                <FontWeight>=IIf(Fields!GRADE.Value = "K", "Bold", "Default")</FontWeight>
                               </Style>
                             </TextRun>
                           </TextRuns>
@@ -757,6 +763,7 @@
                               <Style>
                                 <FontFamily>Segoe UI</FontFamily>
                                 <FontSize>9pt</FontSize>
+                                <FontWeight>=IIf(Fields!GRADE.Value = "K", "Bold", "Default")</FontWeight>
                               </Style>
                             </TextRun>
                           </TextRuns>
@@ -790,6 +797,7 @@
                               <Style>
                                 <FontFamily>Segoe UI</FontFamily>
                                 <FontSize>9pt</FontSize>
+                                <FontWeight>=IIf(Fields!GRADE.Value = "K", "Bold", "Default")</FontWeight>
                               </Style>
                             </TextRun>
                           </TextRuns>
@@ -883,7 +891,7 @@
   <Width>10.07292in</Width>
   <Page>
     <PageFooter>
-      <Height>0.36458in</Height>
+      <Height>0.76389in</Height>
       <PrintOnFirstPage>true</PrintOnFirstPage>
       <PrintOnLastPage>true</PrintOnLastPage>
       <ReportItems>
@@ -933,7 +941,7 @@
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>Textbox21</rd:DefaultName>
-          <Top>0.02778in</Top>
+          <Top>0.06944in</Top>
           <Height>0.25in</Height>
           <Width>1.54167in</Width>
           <ZIndex>1</ZIndex>
@@ -967,6 +975,47 @@
           <Height>0.25in</Height>
           <Width>1in</Width>
           <ZIndex>2</ZIndex>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="Textbox1">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>Note:</Value>
+                  <Style>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+                <TextRun>
+                  <Value xml:space="preserve"> </Value>
+                  <Style />
+                </TextRun>
+                <TextRun>
+                  <Value>Kindergarteners will be picked up and brought to your class. All other students will be waiting for you to pick them up in the big gym.</Value>
+                  <Style>
+                    <FontStyle>Italic</FontStyle>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox1</rd:DefaultName>
+          <Top>0.47222in</Top>
+          <Height>0.25in</Height>
+          <Width>10.07291in</Width>
+          <ZIndex>3</ZIndex>
           <Style>
             <Border>
               <Style>None</Style>
