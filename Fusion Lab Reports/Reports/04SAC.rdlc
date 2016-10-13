@@ -769,7 +769,7 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>2016 Fall Fusion Lab</Value>
+                  <Value>=System.Configuration.ConfigurationManager.AppSettings("Session")</Value>
                   <Style />
                 </TextRun>
               </TextRuns>
@@ -777,9 +777,9 @@
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>Textbox21</rd:DefaultName>
-          <Top>0.0139in</Top>
+          <Top>0.05556in</Top>
           <Height>0.25in</Height>
-          <Width>1.58333in</Width>
+          <Width>2.45834in</Width>
           <Style>
             <Border>
               <Style>None</Style>
@@ -837,7 +837,7 @@
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>PageNumber</rd:DefaultName>
-          <Top>0.06598in</Top>
+          <Top>0.05556in</Top>
           <Left>8.77084in</Left>
           <Height>0.25in</Height>
           <Width>1in</Width>
@@ -975,6 +975,9 @@
       </rd:DataSetInfo>
     </DataSet>
   </DataSets>
+  <CodeModules>
+    <CodeModule>System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</CodeModule>
+  </CodeModules>
   <rd:ReportUnitType>Inch</rd:ReportUnitType>
   <rd:ReportID>a364e094-8ac7-47dd-b450-98c69af56534</rd:ReportID>
 </Report>

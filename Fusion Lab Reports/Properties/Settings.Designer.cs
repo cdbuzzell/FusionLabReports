@@ -25,15 +25,6 @@ namespace Fusion_Lab_Reports.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("2016 Fall")]
-        public string Session {
-            get {
-                return ((string)(this["Session"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
         [global::System.Configuration.DefaultSettingValueAttribute("Dsn=Excel Files;dbq=E:\\CDBUZ\\PROJECTS\\FusionLabReports\\DATASOURCES\\Somerset Stars" +
             " Fusion Lab.xlsx;defaultdir=E:\\CDBUZ\\PROJECTS\\FusionLabReports\\DATASOURCES;drive" +

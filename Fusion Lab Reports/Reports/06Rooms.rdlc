@@ -284,7 +284,7 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>2016 Fall Fusion Lab</Value>
+                  <Value>=System.Configuration.ConfigurationManager.AppSettings("Session")</Value>
                   <Style />
                 </TextRun>
               </TextRuns>
@@ -294,7 +294,7 @@
           <rd:DefaultName>Textbox21</rd:DefaultName>
           <Top>0.02083in</Top>
           <Height>0.25in</Height>
-          <Width>1.54167in</Width>
+          <Width>2.44792in</Width>
           <Style>
             <Border>
               <Style>None</Style>
@@ -408,6 +408,9 @@
       </rd:DataSetInfo>
     </DataSet>
   </DataSets>
+  <CodeModules>
+    <CodeModule>System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</CodeModule>
+  </CodeModules>
   <rd:ReportUnitType>Inch</rd:ReportUnitType>
   <rd:ReportID>53e9507c-904f-45fe-961d-ad81e016a0c8</rd:ReportID>
 </Report>

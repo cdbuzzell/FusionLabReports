@@ -933,7 +933,7 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>2016 Fall Fusion Lab</Value>
+                  <Value>=System.Configuration.ConfigurationManager.AppSettings("Session")</Value>
                   <Style />
                 </TextRun>
               </TextRuns>
@@ -943,7 +943,7 @@
           <rd:DefaultName>Textbox21</rd:DefaultName>
           <Top>0.06944in</Top>
           <Height>0.25in</Height>
-          <Width>1.54167in</Width>
+          <Width>2.36458in</Width>
           <ZIndex>1</ZIndex>
           <Style>
             <Border>
@@ -1002,7 +1002,7 @@
                   <Style />
                 </TextRun>
                 <TextRun>
-                  <Value>Kindergarteners will be picked up and brought to your class. All other students will be waiting for you to pick them up in the big gym.</Value>
+                  <Value>Kindergartners will be picked up and brought to your class. All other students will be waiting for you to pick them up in the big gym.</Value>
                   <Style>
                     <FontStyle>Italic</FontStyle>
                   </Style>
@@ -1149,6 +1149,9 @@
       </rd:DataSetInfo>
     </DataSet>
   </DataSets>
+  <CodeModules>
+    <CodeModule>System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</CodeModule>
+  </CodeModules>
   <rd:ReportUnitType>Inch</rd:ReportUnitType>
   <rd:ReportID>a67b5b99-24d9-4fce-a673-1a08645d82e8</rd:ReportID>
 </Report>
